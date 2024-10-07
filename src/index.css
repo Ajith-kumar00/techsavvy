@@ -1,0 +1,19 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4ff;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 10px;
+  background: white;
+}
+
+button {
+  border-radius: 6px;
+}

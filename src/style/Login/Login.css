@@ -1,0 +1,70 @@
+/* Main container */
+.login-container {
+  background: linear-gradient(135deg, #9396dd, #1b1d61); /* Gradient background */
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  width: 100%;
+  max-width: 550px; 
+  margin: 0 auto;
+  padding: 30px; 
+}
+
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px 40px; 
+  border: 2px solid gray;
+  border-radius: 8px; 
+  font-size: 16px;
+  transition: border-color 0.3s; 
+}
+
+.input-box input:focus {
+  outline: none; 
+  border-color: #4c3bbd; 
+}
+
+
+.icon,
+.forgot-password {
+  position: absolute;
+  color: gray; 
+}
+
+.icon {
+  top: 50%;
+  left: 15px; 
+  transform: translateY(10%); 
+}
+
+.forgot-password {
+  top: 50%;
+  right: 15px; 
+  transform: translateY(-50%); 
+  font-size: 14px; 
+  cursor: pointer; 
+}
+
+.logo {
+  width: 100px; 
+  height: auto; 
+  display: inline-block; 
+}
+
+.company-name {
+  display: inline-block; 
+  font-size: 24px; 
+  margin-left: 10px;
+  vertical-align: middle;
+}
